@@ -1,6 +1,6 @@
 <?php
 
-namespace Benjacho\BelongsToManyField\Rules;
+namespace Kraenkvisuell\BelongsToManyField\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

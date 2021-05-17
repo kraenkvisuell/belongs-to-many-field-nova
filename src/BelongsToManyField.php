@@ -1,8 +1,8 @@
 <?php
 
-namespace Benjacho\BelongsToManyField;
+namespace Kraenkvisuell\BelongsToManyField;
 
-use Benjacho\BelongsToManyField\Rules\ArrayRules;
+use Kraenkvisuell\BelongsToManyField\Rules\ArrayRules;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Fields\ResourceRelationshipGuesser;
 use Laravel\Nova\Http\Requests\NovaRequest;

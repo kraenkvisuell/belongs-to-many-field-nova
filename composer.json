@@ -1,5 +1,5 @@
 {
-    "name": "benjacho/belongs-to-many-field",
+    "name": "kraenkvisuell/belongs-to-many-field",
     "description": "belongsToMany nova representation in field.",
     "keywords": [
         "laravel",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Benjacho\\BelongsToManyField\\": "src/"
+            "Kraenkvisuell\\BelongsToManyField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Benjacho\\BelongsToManyField\\FieldServiceProvider"
+                "Kraenkvisuell\\BelongsToManyField\\FieldServiceProvider"
             ]
         }
     },

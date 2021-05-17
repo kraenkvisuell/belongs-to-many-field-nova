@@ -1,6 +1,6 @@
 <?php
 
-namespace Benjacho\BelongsToManyField\Http\Controllers;
+namespace Kraenkvisuell\BelongsToManyField\Http\Controllers;
 
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;

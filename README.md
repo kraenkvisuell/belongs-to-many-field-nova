@@ -12,7 +12,7 @@ Also you can:
 ### Installation
 
 ```bash
-composer require benjacho/belongs-to-many-field
+composer require kraenkvisuell/belongs-to-many-field
 ```
 
 ### Usage
@@ -22,7 +22,7 @@ In the resource you need to pass:
 - Method make ('label', 'many to many relationship function name', 'Nova Resource Relationship')
 
 ```php
-use Benjacho\BelongsToManyField\BelongsToManyField;
+use Kraenkvisuell\BelongsToManyField\BelongsToManyField;
 
 public function fields(Request $request){
     return [
@@ -54,7 +54,7 @@ IMPORTANT
   method to show in detail and index.
 
 ```php
-use Benjacho\BelongsToManyField\BelongsToManyField;
+use Kraenkvisuell\BelongsToManyField\BelongsToManyField;
 
 public function fields(Request $request){
     BelongsToManyField::make('Role Label', 'roles', 'App\Nova\Role')->optionsLabel('full_role_name'),
@@ -118,7 +118,7 @@ This package implement all Laravel Validations, you need to pass the rules in ru
 validations rules for arrays*.
 
 ```php
-use Benjacho\BelongsToManyField\BelongsToManyField;
+use Kraenkvisuell\BelongsToManyField\BelongsToManyField;
 
 public function fields(Request $request){
     return [
@@ -128,14 +128,14 @@ public function fields(Request $request){
 }
 ```
 
-![image](https://raw.githubusercontent.com/Benjacho/belongs-to-many-field-nova/master/validation.png)
+![image](https://raw.githubusercontent.com/Kraenkvisuell/belongs-to-many-field-nova/master/validation.png)
 
 ### Translations
 
 To publish translations:
 
 ```
-php artisan vendor:publish --provider="Benjacho\BelongsToManyField\FieldServiceProvider" 
+php artisan vendor:publish --provider="Kraenkvisuell\BelongsToManyField\FieldServiceProvider" 
 ```
 
 This package come with the following translation for the vue-multiselect plugin.
