@@ -15,7 +15,7 @@ Also you can:
 composer require kraenkvisuell/belongs-to-many-field
 ```
 
-### Usage test
+### Usage
 
 In the resource you need to pass:
 
